@@ -71,10 +71,6 @@ public class MainActivity extends ActionBarActivity {
                     "Sun 6/29 - Sunny - 20/7"
             };
             List<String> weekForecast = new ArrayList<String>(Arrays.asList(data));
-
-        @Override
-        public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                                 Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_main, container, false);
             return rootView;
         }
